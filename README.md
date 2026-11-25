@@ -66,7 +66,7 @@
 
 Agentifizierung offers AI-driven transformation services for B2B companies, reducing process costs, leveraging knowledge, and optimizing websites for humans, search engines, and AI agents. They develop and integrate operational AI systems that extract enterprise knowledge, prepare decisions, and execute tasks within existing software, while also providing SEO, GEO, and interface solutions.
 
-**Areas:** AI · Machine Learning · Automation · Digital Transformation · Business
+**Areas:** Artificial Intelligence · Machine Learning · Automation · Digital Transformation · Business
 
 ## Agentifizierung on APIs.io
 
@@ -83,11 +83,17 @@ Everything profiled for Agentifizierung is published on APIs.io rather than in t
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [agentifizierung-de-mcp.yml](https://apis.io/servers/agentifizierung-de/agentifizierung-de-mcp-yml/)
+
 #### Agentic access (1)
 
 Which operations an agent can call, which act, and which need a human in the loop.
 
-- [Agentifizierung De Agentic Access](https://apis.io/agentic-access/agentifizierung-de/agentifizierung-de-agentic-access/)
+- [Agentifizierung Agentic Access](https://apis.io/agentic-access/agentifizierung-de/agentifizierung-de-agentic-access/)
 
 #### JSON Schema (6)
 
@@ -116,26 +122,26 @@ Spectral rulesets for the provider's contracts.
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [Agentifizierung De Authentication](https://apis.io/security/agentifizierung-de/agentifizierung-de-authentication/)
-- [Agentifizierung De Domain Security](https://apis.io/security/agentifizierung-de/agentifizierung-de-domain-security/)
+- [Agentifizierung Authentication](https://apis.io/security/agentifizierung-de/agentifizierung-de-authentication/)
+- [Agentifizierung Domain Security](https://apis.io/security/agentifizierung-de/agentifizierung-de-domain-security/)
 
 #### OAuth scopes (1)
 
 The permissions the API asks for.
 
-- [Agentifizierung De Scopes](https://apis.io/scopes/agentifizierung-de/agentifizierung-de-scopes/)
+- [Agentifizierung Scopes](https://apis.io/scopes/agentifizierung-de/agentifizierung-de-scopes/)
 
 #### Plans and pricing (1)
 
 Published plans, tiers and prices.
 
-- [Agentifizierung De Plans Pricing](https://apis.io/plans/agentifizierung-de/agentifizierung-de-plans-pricing/)
+- [Agentifizierung Plans Pricing](https://apis.io/plans/agentifizierung-de/agentifizierung-de-plans-pricing/)
 
 #### Rate limits (1)
 
 Published request limits.
 
-- [Agentifizierung De Rate Limits](https://apis.io/rate-limits/agentifizierung-de/agentifizierung-de-rate-limits/)
+- [Agentifizierung Rate Limits](https://apis.io/rate-limits/agentifizierung-de/agentifizierung-de-rate-limits/)
 
 ## Where to find this API
 
@@ -151,43 +157,46 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 45.7** — developing · rubric 0.26.0 · scored 2026-11-01
+**Kin Score 40.8** — developing · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
-| Discoverability | 65.0 |
-| Contract quality | 56.5 |
-| Contract governance | 79.1 |
-| Operational transparency | 10.5 |
-| Developer ergonomics | 37.4 |
-| Access clarity | 21.1 |
+| Discoverability | 81.7 |
+| Contract quality | 59.5 |
+| Contract governance | 22.0 |
+| Operational transparency | 9.5 |
+| Developer ergonomics | 32.7 |
+| Access clarity | 27.7 |
 
-**Agent readiness 55.5** — agent-ready (gated down from agent-native)
+**Agent readiness 49.7** — agent-ready (gated down from agent-native)
 
 | Agent-readiness dimension | Result |
 |---|---|
 | Spec Presence | yes |
-| Agentic Access | unknown |
+| Agentic Access | derived (partial credit) |
 | Reversibility Documented | — |
 | MCP Server | documented (partial credit) |
 | Auth Clarity | served (partial credit) |
 | Idempotency | — |
-| Error Semantics | derived (partial credit) |
+| Error Semantics | verified |
 | OpenAPI Examples | partial |
 | Rate Limit Signal | documented (partial credit) |
 | Event Surface Described | — |
-| Agent Skills | unknown |
+| Agent Skills | derived (partial credit) |
 | Well Known Catalog | yes |
 | Consent Identity | — |
 | Agent Card | conformant |
 | Dry Run Mode | — |
 | Delegated Identity | served (partial credit) |
-| Protected Resource Metadata | verified |
+| Protected Resource Metadata | — |
 | Dynamic Client Registration | — |
 | Agentic Commerce | — |
 | Pagination Ratio | na |
 | Operation Distinctiveness | distinct |
 | MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | yes |
 
 **Regulatory alignment 31.8** — Horizontal (data, software, accessibility, platform)
 
